@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+.table{
+		border:0px;	
+		width:180px;
+		height:25px;
+}
+.tr{
+border:0px;
+}
+.td{
+	border:#CCCCCC solid 1px;
+	width:25px;
+	height:25px;
+	text-align:center;
+	font-family:Verdana;
+	font-size:11px;
+	color:#CCCCCC;
+	font-weight:bold;
+}
+.div{
+	text-align:right;
+	vertical-align:top;
+	right:0px;
+	top:1px;
+}
+.eventdate{
+	text-align:right;
+	font-weight:bold;
+	background-color:#728ec0;
+	color:#FFFFFF;
+}
+.rate{
+	font-size:12px;
+	text-align:center;
+	vertical-align:top;
+	font-weight:bold;
+	color:#999999;
+	padding-top:3px;
+}
+.day{
+	width:25px;
+	height:25px;
+	text-align:right;
+	vertical-align:top;
+	border:#CCCCCC solid 1px;
+	font-family:Verdana;
+	font-size:11px;
+	color:#CCCCCC;
+	/*background-image:url(disabled.gif);*/
+	background-repeat:no-repeat;
+}
+.cal_cell {
+	border:#CCCCCC solid 1px;
+	font-family:Verdana;
+	font-size:11px;
+	color:#CCCCCC;
+	text-align:center;vertical-align:middle;
+	font-family:Verdana;
+	font-size:12px;
+	border:0px;
+}
+.cal_day {
+	text-align:center;
+	vertical-align:top;
+	border:#CCCCCC solid 1px;
+	font-family:Verdana;
+	font-size:11px;
+	color:#CCCCCC;
+	font-weight:bold;
+}
+.div_enable{
+	width:25px;
+	height:25px;
+	border:#CCCCCC solid 1px;
+	font-family:Verdana;
+	font-size:11px;
+	color:#CCCCCC;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.cell_bg{
+	text-align:center;
+	vertical-align:middle;
+	background-color:#A6CED0;
+	color:#FFFFFF;
+	font-weight:bold;
+	cursor:pointer;
+}
+.tbl{ 
+	width:50px;
+	border:none;
+	font-family:Verdana;
+	font-size:11px;
+	color:#999999;
+}
+.a{
+	font-family:Verdana;
+	font-size:14px;
+	font-weight:bold;
+	color:#006790;
+	text-decoration:none;
+}
+.br_none{
+	border:none;
+	text-align:right;
+}

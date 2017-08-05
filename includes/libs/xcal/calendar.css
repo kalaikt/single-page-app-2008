@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+.table{
+		border:0px;	
+		width:280px;
+		font-size:8px;
+}
+.tr{
+border:0px;
+}
+.td{
+	border:#CCCCCC solid 1px;
+	width:38px;
+	height:38px;
+	text-align:center;
+	vertical-align:middle;
+	font-family:Verdana;
+	color:#CCCCCC;
+	font-weight:bold;
+}
+.div{
+	text-align:right;
+	vertical-align:top;
+	right:0px;
+	top:1px;
+}
+.eventdate{
+	width:38px;
+	height:38px;
+	vertical-align:top;
+	text-align:center;
+	font-weight:bold;
+	background-color:#728ec0;
+	color:#FFFFFF;
+}
+.eventdate1{
+	width:38px;
+	height:38px;
+	vertical-align:top;
+	text-align:center;
+	font-weight:bold;
+	background-color:#728ec0;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+.sz{
+	font-size:8px;
+	font-family:Verdana;
+	font-weight:bold;
+}
+.sz1{
+	font-size:8px;
+	font-family:Verdana;
+	font-weight:bold;
+}
+
+.rate{
+	text-align:center;
+	vertical-align:top;
+	font-weight:bold;
+	color:#999999;
+	padding-top:3px;
+}
+.rate1{
+	text-align:center;
+	vertical-align:top;
+	font-weight:bold;
+	color:#000000;
+	padding-top:3px;
+}
+
+.day{
+	width:38px;
+	height:38px;
+	text-align:right;
+	vertical-align:top;
+	border:#CCCCCC solid 1px;
+	font-family:Verdana;
+	color:#CCCCCC;
+	background-image:url(disabled.gif);
+	background-repeat:no-repeat;
+}
+.cal_cell {
+	border:#CCCCCC solid 1px;
+	font-family:Verdana;
+	color:#CCCCCC;
+	text-align:center;vertical-align:middle;
+	font-family:Verdana;
+	font-size:12px;
+	border:0px;
+}
+.cal_day {
+	text-align:center;
+	vertical-align:top;
+	border:#CCCCCC solid 1px;
+	font-family:Verdana;
+	color:#CCCCCC;
+	font-weight:bold;
+}
+.div_enable{
+	width:38px;
+	height:38px;
+	border:#CCCCCC solid 1px;
+	font-family:Verdana;
+	color:#CCCCCC;
+	font-weight:bold;
+	text-align:center;
+	cursor:pointer;
+}
+.cell_bg{
+	text-align:center;
+	vertical-align:middle;
+	background-color:#A6CED0;
+	color:#FFFFFF;
+	font-weight:bold;
+	cursor:pointer;
+}
+.tbl{ 
+
+	border:none;
+	font-family:Verdana;
+	color:#999999;
+}
+.a{
+	font-family:Verdana;
+	font-size:14px;
+	font-weight:bold;
+	color:#006790;
+	text-decoration:none;
+}
+.br_none{
+	border:none;
+	text-align:right;
+}
+.resered{
+	/*background-image:url(full.png);
+	background-repeat:no-repeat;
+	background-position:center;*/
+	color:#FF0000;
+	font-family:Verdana;
+	font-weight:bold;
+	cursor:default;
+}

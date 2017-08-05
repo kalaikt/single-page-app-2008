@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.css_tbl{
+	border:none;
+	font-family:Verdana;
+	font-size:11px;
+	/*width:200px;*/
+}
+.css_td{
+	border:1px #ECE9D8 solid;
+	font-family:Verdana;
+	vertical-align:top;
+	font-size:11px;
+	padding-left:5px;
+	padding-right:5px;
+	text-align:left;
+}
+.header {
+	border:1px #ECE9D8 solid;
+	color: #FFFFFF;
+	text-align:center;
+	padding-left:5px;
+	padding-right:5px;
+	height:25px;
+	background-color:#ECE9D8;
+	color:#666666;
+	
+}
+.header1 {
+	border:1px #ECE9D8 solid;
+	color: #FFFFFF;
+	text-align:left;
+	padding-left:5px;
+	padding-right:5px;
+	height:25px;
+	background-color:#ECE9D8;
+	color:#666666;
+	
+}
+.img{
+		background:transparent;
+}
+img{
+	border:none;
+}
+.edit{
+	text-align:center;
+	padding-left:0px;
+	padding-top:0px;
+}
+
+.txt_read{
+	border:none;
+	background-color:transparent;
+	font-family:Verdana;
+	font-size:11px;
+	
+}
+.txt_write{
+	border:0px transparent solid;
+	background-color:transparent;
+	font-family:Verdana;
+	font-size:11px;
+}
+.page{
+	vertical-align:middle;
+	font-family:Verdana;
+	color:#666666;
+	font-size:11px;
+	font-weight:bold;
+}
+.page a{
+	color:#666666;
+	vertical-align:middle;
+	text-decoration:none;
+}
+.page a:hover{
+	color:#FF0000;
+	vertical-align:middle;
+	text-decoration:underline;
+}
+.header a{
+	color:#666666;
+	vertical-align:middle;
+	text-decoration:none;
+}
+.header a:hover{
+	color:#FF0000;
+	vertical-align:middle;
+	text-decoration:underline;
+}
+.v_align{
+	text-align:center;
+	border:1px #ECE9D8 solid;
+	font-family:Verdana;
+	height:25px;
+}
+.bold{
+	color:#FF0000;
+	vertical-align:middle;
+}
+.insert{
+	float:right;
+}
+.brd_none{
+	border:none;
+	text-align:right;
+	vertical-align:middle;
+}
+.top_brd{
+	border-top:none;
+}
+.err{
+	color:#FF0000;
+	font-weight:bold;
+	text-align:center;
+	border:1px #ECE9D8 solid;
+}
+.hide{
+	text-align:left;
+}
+.ser_text{
+	border:1px #ECE9D8 solid;
+}
+.sql_text{
+	border:1px #ECE9D8 solid;
+	width:270px;
+}
+.btn_submit{
+	background-color:#ECE9D8;
+	color:#666666;
+	border:1px #ECE9D8 outset;
+	font-family:Verdana;
+	font-weight:bold;
+	cursor:pointer;
+}
+.btn_cancel{
+	background-color:#FF0000;
+	color:#ECE9D8;
+	border:1px #ECE9D8 outset;
+	font-family:Verdana;
+	font-weight:bold;
+	cursor:pointer;
+}
+.star{
+	color:#FF0000;
+}
+.text_box{
+	font-family:Verdana;
+	font-size:11px;
+	border:1px #999999 solid;
+	width:450px;	
+}

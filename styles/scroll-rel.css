@@ -1,0 +1,93 @@
+DIV#hold {
+	Z-INDEX: 100; OVERFLOW: hidden; WIDTH: 250px; POSITION: relative; HEIGHT: 300px
+}
+DIV#contesthold {
+	Z-INDEX: 100; OVERFLOW: hidden; WIDTH: 250px; POSITION: relative; HEIGHT: 300px
+}
+DIV#wn {
+	Z-INDEX: 1; LEFT: 0px; OVERFLOW: hidden; WIDTH: 250px; CLIP: rect(0px, 250px, 300px, 0px); POSITION: relative; TOP: 0px; HEIGHT: 300px;
+}
+DIV#wn1 {
+	Z-INDEX: 1; LEFT: 0px; OVERFLOW: hidden; WIDTH: 250px; CLIP: rect(0px, 250px, 300px, 0px); POSITION: relative; TOP: 0px; HEIGHT: 300px;
+}
+DIV.content {
+	FONT-SIZE: 10px; Z-INDEX: 1; LEFT: 0px; VISIBILITY: hidden; COLOR: #2c2c2c; FONT-FAMILY: Verdana; POSITION: absolute; TOP: 0px; TEXT-DECORATION: none
+}
+DIV#scrollbar {
+	FONT-SIZE: 1px; Z-INDEX: 1; LEFT: 0px; WIDTH: 1px; POSITION: relative; TOP: 0px; HEIGHT: 300px
+}
+DIV#homescrollbar {
+	FONT-SIZE: 1px; Z-INDEX: 1; LEFT: 0px; WIDTH: 1px; POSITION: relative; TOP: 0px; HEIGHT: 300px
+}
+DIV#track {
+	Z-INDEX: 1; BACKGROUND: url(../images/track.gif) #505050; LEFT: 2px; WIDTH: 4px; POSITION: absolute; TOP: 0px; HEIGHT: 300px
+}
+DIV#hometrack {
+	Z-INDEX: 1; BACKGROUND: url(../images/track.gif) #505050; LEFT: 2px; WIDTH: 4px; POSITION: absolute; TOP: 12px; HEIGHT: 75px
+}
+DIV#dragBar {
+	Z-INDEX: 1; LEFT: 0px; WIDTH: 4px; POSITION: absolute; TOP: 1px; HEIGHT: 45px; BACKGROUND-COLOR: #ff6d00
+}
+DIV#homedragBar {
+	Z-INDEX: 1; LEFT: 0px; WIDTH: 4px; POSITION: absolute; TOP: 1px; HEIGHT: 45px; BACKGROUND-COLOR: #ceced6
+}
+DIV#up {
+	Z-INDEX: 2; LEFT: -3px; POSITION: absolute; TOP: -9px
+}
+DIV#down {
+	Z-INDEX: 2; LEFT: -3px; BOTTOM: -6px; POSITION: absolute
+}
+BODY {
+	FONT: 11px arial, helvetica, sans-serif
+}
+TD {
+	FONT: 11px arial, helvetica, sans-serif
+}
+TH {
+	FONT-SIZE: 1.4em; TEXT-ALIGN: left
+}
+A IMG {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+P {
+	MARGIN: 0px 0px 0.6em
+}
+H2 {
+	FONT-SIZE: 1.2em; MARGIN: 0px 0px 0.6em
+}
+H3 {
+	FONT-SIZE: 1.1em; MARGIN: 0px 0px 0.6em
+}
+DIV.content {
+	TEXT-ALIGN: left
+}
+TABLE.main {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; MARGIN: auto; BORDER-LEFT: #999 1px solid; WIDTH: 380px; BORDER-BOTTOM: #999 1px solid; BACKGROUND-COLOR: #eee; TEXT-ALIGN: left
+}
+TABLE.main TD.text {
+	VERTICAL-ALIGN: top; TEXT-ALIGN: left
+}
+TABLE.main TD.navs {
+	VERTICAL-ALIGN: top; TEXT-ALIGN: left
+}
+TD#scrollLinks {
+	WIDTH: 12px
+}
+TD.navs UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+TD.navs UL LI {
+	MARGIN: 0px 0px 0.6em 0.4em
+}
+TD.navs UL LI A {
+	TEXT-DECORATION: none
+}
+TD.navs UL LI A:hover {
+	TEXT-DECORATION: underline
+}
+.text {
+	COLOR: #ffffff
+}
+.contestcopy {
+	FONT-SIZE: 10px; COLOR: #2c2c2c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}

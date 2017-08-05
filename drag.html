@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="common.css">
+<link rel="stylesheet" type="text/css" href="lists.css">
+</head>
+<style type="text/css"><!--
+	.statusbox {
+		font-size: 13px;
+		font-family: Monaco, monospace;
+		width: 15em;
+	}
+	ul.boxy li { margin: 0px; }
+	#phonetics td {
+		margin: 0px;
+		padding: 0px 1em;
+		vertical-align: top;
+		width: 100px;
+	}
+	#phonetic1 li, #phonetic2 li, #phonetic3 li { margin: 0px; }
+	#phonetic2 li {
+		margin-bottom: 4px;
+	}
+	#phonetic3 { margin-top: -4px; }
+	#phonetic3 li { margin-top: 4px; }
+	#phoneticlong {
+		margin-bottom: 1em;
+	}
+	#phoneticlong li, #buttons li {
+		margin-bottom: 0px;
+		margin-top: 4px;
+	}
+
+	#boxes {
+		font-family: Arial, sans-serif;
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		width: 300px;
+	}
+	#boxes li {
+		cursor: move;
+		position: relative;
+		float: left;
+		margin: 2px 2px 0px 0px;
+		width: 33px;
+		height: 28px;
+		border: 1px solid #000;
+		text-align: center;
+		padding-top: 5px;
+		background-color: #eeeeff;
+	}
+
+	#twolists td {
+		width: 300px;
+		vertical-align: top;
+	}
+	#twolists1 li {
+		font-family: sans-serif;
+	}
+	#twolists2 {
+		border: 1px dashed #fff;
+	}
+	#twolists2 li {
+		font-family: serif;
+		background-color: #eedddd;
+	}
+	.inspector {
+		font-size: 11px;
+	}
+	//-->
+</style>
+<script type="text/javascript">
+	this.text = new Array();
+	this.objects = new Array();
+	this.idx=0;
+	function getText(obj){
+		if(obj.innerHTML !=''){
+			this.text[this.idx]=obj.innerHTML;
+			this.objects[this.idx++] = obj;
+		}
+		if(this.text.length >1){
+			this.objects[0].innerHTML = this.text[1];
+			this.objects[1].innerHTML = this.text[0];
+			this.idx=0;
+			kill(this.text);
+			kill(this.objects);
+		}
+	}
+	function kill(arr){
+		for(i=0;i<=arr.length;i++){
+			arr.pop();
+		}
+	}
+	
+</script>
+<body>
+<ul id="phonetic1" class="boxy">
+	<li style="position: relative;" class="drag" itemid="1" onmousedown="getText(this);" onmouseup="getText(this);">one</li>
+	<li style="position: relative;" class="drag" itemid="2" onmousedown="getText(this);" onmouseup="getText(this);">two</li>
+	<li style="position: relative;" class="drag" itemid="3" onmousedown="getText(this);" onmouseup="getText(this);">three</li>
+</ul>
+</body>
+</html>

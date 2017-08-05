@@ -1,0 +1,7 @@
+<?php /* Smarty version 2.6.18, created on 2008-07-31 10:19:20
+         compiled from default/autocad.tpl */ ?>
+Having trouble finding talented and loyal people who have experience with 2D/3D CAD or BIM? We've heard that before. <br />
+<br/> We can help. Although our company's background is in software, we began working with engineering, manufacturing, and architectural firms in 2007 to help them break their production bottlenecks too. The problem is the same, it's only the software that's different. <br />
+<br/> We can put the teams in place to help you increase your production. Wouldn't you rather be focused on winning bids and increasing sales than worrying about where you're going to get another detailer anyway? Don't be handcuffed. Let us help. <br/><br />
+ <u>In our Engineering/CAD department, Augmentation</u> isn't just our favorite model, it's our only model. We will be the first to admit that we are not experts on AutoCAD, MicroStation, Inventor, or Revit, but we can find the people who are. <br />
+ It's not about the cost savings (though that's attractive too). It's about getting the work out the door, keeping your customers happy, and winning more bids. Contact us and let's find out if there is a way to help you <br/>
